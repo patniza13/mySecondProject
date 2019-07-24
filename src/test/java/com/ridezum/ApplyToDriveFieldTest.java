@@ -2,8 +2,6 @@ package com.ridezum;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.Random;
 
 
@@ -14,7 +12,7 @@ public class ApplyToDriveFieldTest extends BaseTest {
 
 
     @Test
-    public void testApplyToDriveField () throws InterruptedException {
+    public void testApplyToDriveField () {
 
         homePage = new HomePage(driver);
 
@@ -23,15 +21,24 @@ public class ApplyToDriveFieldTest extends BaseTest {
 
         applyToDrivePage.inputFirstName( "John" );
         applyToDrivePage.inputLastName( "Johnson" );
-        applyToDrivePage.inputEmail( "blablabla@gmail.com" );
+        applyToDrivePage.inputEmail( "blablabla12@gmail.com" );
         applyToDrivePage.inputPhone( "4081234567" );
-        applyToDrivePage.selectRegion( 3 );
-      //  Random random = new Random(  );
-        //int randomNumber = random.nextInt(6);
 
+
+        Random random = new Random(  );
+        int randomNumber = random.nextInt(6);
+       // applyToDrivePage.selectRegion(randomNumber);
+       //  applyToDrivePage.selectRegion(randomNumber);
+
+        applyToDrivePage.selectRegionByName();
+        applyToDrivePage.selectRegionByVisName();
 
         applyToDrivePage.inputZip( "95111" );
-        applyToDrivePage.clickSubmitButton();
+      //  applyToDrivePage.clickSubmitButton();
+
+        driver.switchTo().defaultContent();
+
+        applyToDrivePage.clickCareersbutton();
 
 
     }

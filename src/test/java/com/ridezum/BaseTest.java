@@ -15,6 +15,8 @@ public abstract class BaseTest {
 
         driver = new ChromeDriver();
 
+        driver.manage().window().fullscreen();
+
         driver.get("https://ridezum.com/");
 
         System.out.println("Start");
