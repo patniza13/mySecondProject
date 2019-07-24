@@ -13,7 +13,7 @@ public abstract class BasePage {
 
         PageFactory.initElements(driver, this);
         this.driver = driver;
-        wait = new WebDriverWait(driver, 10);
+        wait = new WebDriverWait(driver, 30);
 
     }
 }

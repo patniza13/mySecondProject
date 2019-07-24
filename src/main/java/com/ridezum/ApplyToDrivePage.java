@@ -2,18 +2,17 @@ package com.ridezum;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.List;
+
+
 
 public class ApplyToDrivePage extends BasePage {
 
     public ApplyToDrivePage(WebDriver driver) {
         super(driver);
 
-        WebDriverWait wait = new WebDriverWait(driver, 15 );
-        wait.until( ExpectedConditions.titleContains( "Zumer, Become a Driver, Drivers for Kids | Zum") );
+
+
     }
 
     @FindBy(css = "#application_form_first_name")
@@ -28,8 +27,8 @@ public class ApplyToDrivePage extends BasePage {
     @FindBy(css = "#application_form_phone_number")
     private WebElement phoneField;
 
-    @FindBy(css = "application_form_applicant_region")
-    private List<WebElement> areaField;
+    @FindBy(css = "option")
+    private List<WebElement> dropDownRegionField;
 
     @FindBy (css = "#application_form_zipcode")
     private WebElement zipField;
@@ -56,8 +55,8 @@ public class ApplyToDrivePage extends BasePage {
         phoneField.sendKeys(phone);
     }
 
-    public void selectArea(int i) {
-        areaField.get( i ).click();
+    public void selectRegion(int i) {
+        dropDownRegionField.get( i ).click();
     }
 
     public void inputZip(String zip) {
