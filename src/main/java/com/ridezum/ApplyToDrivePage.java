@@ -1,4 +1,5 @@
 package com.ridezum;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -108,6 +109,16 @@ public class ApplyToDrivePage extends BasePage {
     public String getInvalidPhoneNote() {
         return invalidNotification.get( 3 ).getText();
     }
+
+    public void clearEmail() {
+        emailField.clear();
+    }
+
+    public void clearPhone() {
+        phoneField.clear();
+    }
+
+
 
 
 

@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61728396-297c-42ce-966b-5098ee06ef67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ridezum/VerificationRequiredTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ridezum/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ridezum/ApplyToDrivePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ridezum/ApplyToDrivePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ridezum/ApplyToDriveFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ridezum/ApplyToDriveFieldTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ridezum/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ridezum/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ridezum/VerificationRequiredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ridezum/VerificationRequiredTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ridezum/ApplyToDrivePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ridezum/ApplyToDrivePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ridezum/ApplyToDriveFieldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ridezum/ApplyToDriveFieldTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ridezum/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ridezum/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ridezum/VerificationRequiredTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ridezum/VerificationRequiredTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/ApplyToDriveFieldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="-23">
               <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="111" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,14 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/VerificationRequiredTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+            <state relative-caret-position="93">
+              <caret line="14" selection-start-line="13" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -100,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ridezum/ApplyToDrivePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="50" />
+            <state relative-caret-position="283">
+              <caret line="120" selection-start-line="120" selection-end-line="120" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1181#1182#0" expanded="true" />
@@ -112,6 +119,10 @@
                 <element signature="e#2506#2507#0" expanded="true" />
                 <element signature="e#2569#2570#0" expanded="true" />
                 <element signature="e#2610#2611#0" expanded="true" />
+                <element signature="e#2697#2698#0" expanded="true" />
+                <element signature="e#2722#2723#0" expanded="true" />
+                <element signature="e#2767#2768#0" expanded="true" />
+                <element signature="e#2792#2793#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,6 +153,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ridezum/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ridezum/ApplyToDrivePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ridezum/VerificationRequiredTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arrayChar/toString.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ridezum/Main.java" />
       </list>
     </option>
   </component>
@@ -152,9 +165,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="712" />
-    <option name="y" value="96" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="954" />
+    <option name="y" value="30" />
     <option name="width" value="1125" />
     <option name="height" value="966" />
   </component>
@@ -233,6 +246,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="arrayChar" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -245,7 +263,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VerificationRequiredTest.testVerificationRequired">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ridezum.Main" />
+      <module name="mySecondProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ridezum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApplyToDriveFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mySecondProject" />
       <extension name="coverage">
@@ -293,21 +324,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerificationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mySecondProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ridezum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ridezum" />
-      <option name="MAIN_CLASS_NAME" value="com.ridezum.VerificationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VerificationTest.testVerification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mySecondProject" />
       <extension name="coverage">
@@ -326,11 +342,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.VerificationRequiredTest.testVerificationRequired" />
         <item itemvalue="JUnit.ApplyToDriveFieldTest.testApplyToDriveField" />
         <item itemvalue="JUnit.ApplyToDriveFieldTest" />
         <item itemvalue="JUnit.VerificationTest.testVerification" />
-        <item itemvalue="JUnit.VerificationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -348,15 +364,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApplyToDriveFieldTest_testApplyToDriveField - 2019.07.23 at 21h 29m 57s.xml">
-      <configuration name="ApplyToDriveFieldTest.testApplyToDriveField" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplyToDriveFieldTest_testApplyToDriveField - 2019.07.23 at 21h 31m 16s.xml">
-      <configuration name="ApplyToDriveFieldTest.testApplyToDriveField" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplyToDriveFieldTest_testApplyToDriveField - 2019.07.23 at 21h 33m 46s.xml">
-      <configuration name="ApplyToDriveFieldTest.testApplyToDriveField" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ApplyToDriveFieldTest_testApplyToDriveField - 2019.07.23 at 21h 34m 33s.xml">
       <configuration name="ApplyToDriveFieldTest.testApplyToDriveField" configurationId="JUnit" />
     </history-entry>
@@ -378,9 +385,18 @@
     <history-entry file="VerificationRequiredTest_testVerificationRequired - 2019.07.24 at 16h 08m 22s.xml">
       <configuration name="VerificationRequiredTest.testVerificationRequired" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VerificationRequiredTest_testVerificationRequired - 2019.07.24 at 16h 13m 26s.xml">
+      <configuration name="VerificationRequiredTest.testVerificationRequired" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VerificationRequiredTest_testVerificationRequired - 2019.07.24 at 20h 03m 24s.xml">
+      <configuration name="VerificationRequiredTest.testVerificationRequired" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VerificationRequiredTest_testVerificationRequired - 2019.07.24 at 20h 10m 04s.xml">
+      <configuration name="VerificationRequiredTest.testVerificationRequired" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="954" y="30" width="1125" height="966" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -388,15 +404,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.14498934" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.25539905" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32719395" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3265306" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3277311" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -416,7 +432,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.14498934" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25539905" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -424,7 +440,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -494,10 +510,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/ApplyToDriveFieldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="111" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ridezum/ApplyToDrivePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="50" />
+        <state relative-caret-position="283">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1181#1182#0" expanded="true" />
@@ -508,27 +534,31 @@
             <element signature="e#2506#2507#0" expanded="true" />
             <element signature="e#2569#2570#0" expanded="true" />
             <element signature="e#2610#2611#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/ApplyToDriveFieldTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
+            <element signature="e#2722#2723#0" expanded="true" />
+            <element signature="e#2767#2768#0" expanded="true" />
+            <element signature="e#2792#2793#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/VerificationRequiredTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        <state relative-caret-position="93">
+          <caret line="14" selection-start-line="13" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrayChar/toString.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

@@ -29,12 +29,9 @@ public class VerificationRequiredTest extends BaseTest {
      applyToDrivePage.getInvalidPhoneNote();
 
 
+     applyToDrivePage.clearEmail();
+     applyToDrivePage.clearPhone();
 
-     driver.findElement( By.cssSelector( "#application_form_email" )).clear();
-        System.out.println("Email Cleared");
-
-     driver.findElement( By.cssSelector( "#application_form_phone_number" )).clear();
-        System.out.println("Phone Cleared");
 
         applyToDrivePage.inputEmail( "goodmail@gmail.com" );
         applyToDrivePage.inputPhone( "4081234567" );
