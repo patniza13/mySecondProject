@@ -1,13 +1,11 @@
 package com.ridezum;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
-import sun.awt.windows.WEmbeddedFrame;
 
 import java.util.List;
-import java.util.Random;
+
 
 
 public class ApplyToDrivePage extends BasePage {
@@ -47,6 +45,7 @@ public class ApplyToDrivePage extends BasePage {
 
     @FindBy(css = "small:nth-child(3)")
     private List<WebElement> invalidNotification;
+
 
 
 
@@ -98,7 +97,7 @@ public class ApplyToDrivePage extends BasePage {
         select.selectByVisibleText( "Southern California" );
     }
 
-    public void clickCareersbutton() {
+    public void clickCareersButton() {
         careersButton.get(4).click();
     }
 

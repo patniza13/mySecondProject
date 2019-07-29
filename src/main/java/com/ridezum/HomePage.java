@@ -16,12 +16,19 @@ public class HomePage extends BasePage {
     @FindBy(css = ".m-btn.front-banner__btn")
     private List <WebElement> applyButton;
 
+    @FindBy(css = ".main-menu__link")
+    private List<WebElement> careersButton;
+
 
     public ApplyToDrivePage clickApplyButton() {
         applyButton.get(1).click();
         return new ApplyToDrivePage(driver);
 
+    }
 
+    public CareersPage clickCareersButton() {
+        careersButton.get( 4 ).click();
+        return new CareersPage(driver);
     }
 
 
