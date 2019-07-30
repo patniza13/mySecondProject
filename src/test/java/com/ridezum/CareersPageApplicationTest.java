@@ -4,10 +4,12 @@ package com.ridezum;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.logging.Logger;
 
 
 public class CareersPageApplicationTest extends BaseTest {
 
+    private static Logger log = Logger.getLogger( CareersPageApplicationTest.class.getName() );
     private HomePage homePage;
     private CareersPage careersPage;
     private ViewJobsPage viewJobsPage;
