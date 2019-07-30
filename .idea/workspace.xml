@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61728396-297c-42ce-966b-5098ee06ef67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ridezum/CareersPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ridezum/FirstJobPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ridezum/PersonalInfoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ridezum/ViewJobsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ridezum/CareersPageApplicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ridezum/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ridezum/ApplyToDrivePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ridezum/ApplyToDrivePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ridezum/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ridezum/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ridezum/ApplyToDriveFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ridezum/ApplyToDriveFieldTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ridezum/ApplyToDrivePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ridezum/ApplyToDrivePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ridezum/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ridezum/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ridezum/ApplyToDriveFieldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ridezum/ApplyToDriveFieldTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ridezum/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ridezum/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ridezum/CareersPageApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ridezum/CareersPageApplicationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -163,8 +150,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/CareersPageApplicationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-629">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="221">
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -223,8 +210,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="987" />
-    <option name="y" value="23" />
+    <option name="x" value="760" />
+    <option name="y" value="2" />
     <option name="width" value="1125" />
     <option name="height" value="966" />
   </component>
@@ -419,12 +406,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CareersPageApplicationTest_testCareersPageApplication - 2019.07.28 at 18h 49m 10s.xml">
-      <configuration name="CareersPageApplicationTest.testCareersPageApplication" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CareersPageApplicationTest_testCareersPageApplication - 2019.07.28 at 19h 15m 21s.xml">
-      <configuration name="CareersPageApplicationTest.testCareersPageApplication" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CareersPageApplicationTest_testCareersPageApplication - 2019.07.28 at 20h 11m 29s.xml">
       <configuration name="CareersPageApplicationTest.testCareersPageApplication" configurationId="JUnit" />
     </history-entry>
@@ -447,6 +428,12 @@
       <configuration name="CareersPageApplicationTest.testCareersPageApplication" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CareersPageApplicationTest_testCareersPageApplication - 2019.07.28 at 20h 44m 16s.xml">
+      <configuration name="CareersPageApplicationTest.testCareersPageApplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CareersPageApplicationTest_testCareersPageApplication - 2019.07.29 at 18h 43m 04s.xml">
+      <configuration name="CareersPageApplicationTest.testCareersPageApplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CareersPageApplicationTest_testCareersPageApplication - 2019.07.29 at 18h 44m 19s.xml">
       <configuration name="CareersPageApplicationTest.testCareersPageApplication" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -680,8 +667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ridezum/CareersPageApplicationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="221">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

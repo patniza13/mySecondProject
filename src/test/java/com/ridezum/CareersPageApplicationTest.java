@@ -26,12 +26,14 @@ public class CareersPageApplicationTest extends BaseTest {
 
         viewJobsPage = careersPage.clickViewJobsButton();
 
-       driver.close(); //closes current Tab
-
 
         for (String newTab : driver.getWindowHandles()) {     //switches to new tab
 
-        driver.switchTo().window( newTab );
+            driver.switchTo().window( newTab );
+
+        }
+
+        driver.close(); //closes current Tab
 
         firstJobPage = viewJobsPage.clickApplyButton();
 
@@ -84,7 +86,7 @@ public class CareersPageApplicationTest extends BaseTest {
 
     }
 
-}
+
 
 
 
